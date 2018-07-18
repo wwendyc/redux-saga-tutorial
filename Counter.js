@@ -13,6 +13,7 @@ const Counter = ({ value, onIncrement, onDecrement, onIncrementAsync }) => (
 
 Counter.propTypes = {
   value: PropTypes.number.isRequired,
+  onIncrementAsync: PropTypes.func.isRequired,
   onIncrement: PropTypes.func.isRequired,
   onDecrement: PropTypes.func.isRequired
 }
